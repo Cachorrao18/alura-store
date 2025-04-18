@@ -1,33 +1,33 @@
-![image](https://github.com/user-attachments/assets/5988aea5-557f-4fc3-8ffd-a1e13f683fa4)
-📌 Visão Geral
-O projeto utiliza dados de vendas de quatro lojas diferentes para gerar insights estratégicos. Através de análise exploratória e visualização de dados, identificamos:
+📊 Análise de Vendas - Alura Store
+🎯 Propósito da Análise
+Este projeto tem como objetivo realizar uma análise exploratória de dados de vendas provenientes de quatro lojas distintas. A partir da consolidação dos dados, foram gerados insights de negócio, como:
 
-Faturamento por loja
+- Faturamento total e por categoria
+- Tendências mensais de receita
+- Desempenho dos vendedores
+- Avaliações dos clientes
+- Produtos mais e menos vendidos
+- Custo médio de frete por loja
 
-Custo médio de frete
+Essas informações são valiosas para embasar a decisão de qual Loja deve ser vendida.
 
-Avaliação dos clientes
+🗂️ Estrutura do Projeto
 
-Produtos mais vendidos
+   ►📘 README.md
+   
+   ►📓 analise_vendas.ipynb
+   
+   ►📁 imagens/
 
-Categorias com melhor desempenho
+📌 Insights Obtidos
 
-Objetivo principal: Determinar qual loja tem o pior desempenho e justificar por que ela deve ser vendida, enquanto as outras são mantidas.
+![faturamento por loja](https://github.com/user-attachments/assets/401f8d9d-02ec-4fe5-9897-367c805ee418)
 
-📊 Principais Resultados
-1. Comparativo Geral entre Lojas
-Métrica	Loja 1	Loja 2	Loja 3	Loja 4 (Melhor)
-Faturamento	Médio	Baixo	Alto	Melhor
-Frete Médio	Alto	Médio	Baixo	Baixo
-Avaliação	4.5 ⭐	4.2 ⭐	4.7 ⭐	4.8 ⭐
-Produto Top	Eletrônicos	Livros	Moda	Eletrônicos
-Categoria	Tecnologia	Educação	Vestuário	Tecnologia
-2. Conclusão da Análise
-Loja 4 é a melhor em desempenho geral (faturamento, avaliação e frete baixo).
+Destaques:
 
-Loja 2 tem o pior desempenho (menor faturamento, avaliação mais baixa e categoria menos lucrativa).
+Loja 1 tem o maior faturamento.
 
-Recomendação: Vender a Loja 2 e reinvestir nas demais, especialmente na Loja 4.
+Loja 4 tem o menor faturamento
 
 🛠 Como Executar o Projeto
 Pré-requisitos
@@ -36,50 +36,23 @@ Google Colab ou Jupyter Notebook
 Bibliotecas Python: pandas, matplotlib, numpy
 
 Passo a Passo
-Abrir o Notebook no Google Colab:
 
-Basta clicar no link do arquivo .ipynb no GitHub e selecionar "Abrir no Colab".
+1. Para baixar o arquivo clique em "Code" > "Download ZIP"
+2. Extraia o arquivo no seu computador
+3. Suba para o Colab, vá em "Arquivo" > "Upload notebook"
+4. Selecione o arquivo .ipynb baixado
+5. Vá em ambiente de execução e cliente em: "Executar tudo"
 
-Instalar Dependências (se necessário):
+Conclusão
 
-python
-!pip install pandas matplotlib numpy
-Executar as Células:
+No projeto foram analisados:
+1. Análise do faturamento
+2. Vendas por Categoria
+3. Média de Avaliação das Lojas
+4. Produtos Mais e Menos Vendidos
+5. Frete Médio por Loja
 
-O notebook está dividido em:
+Com os dados organizados foi possível ter clareza para criar relatório para definir qual Loja o Sr. João deve vender. Nesse sentido, mostra-se crucial para boas tomadas de decisão e, consequentemente crescimento do negócio, a análise dos dados de cada Loja.
 
-Carga dos dados (CSV das lojas)
 
-Análise exploratória (faturamento, avaliações, fretes)
 
-Visualização (gráficos comparativos)
-
-Conclusões e recomendações
-
-Gerar Novos Gráficos (Opcional):
-
-Modifique as variáveis ou adicione novas visualizações conforme necessário.
-
-📂 Estrutura do Repositório
-📁 projeto-lojas/
-├── 📄 analise_lojas.ipynb          # Notebook principal (Google Colab/Jupyter)
-├── 📄 README.md                    # Este arquivo
-├── 📁 dados/                       # Dados brutos (CSV)
-│   ├── loja_1.csv
-│   ├── loja_2.csv
-│   ├── loja_3.csv
-│   └── loja_4.csv
-└── 📁 graficos/                    # Imagens geradas (opcional)
-📌 Insights para Tomada de Decisão
-Loja 4 → Mantida e expandida (melhor desempenho em tudo).
-
-Loja 2 → Vendida (justificativa: baixo faturamento e avaliação inferior).
-
-Lojas 1 e 3 → Otimizadas (melhorar frete da Loja 1 e estoque da Loja 3).
-
-🔍 Próximos Passos
-Adicionar análise sazonal (vendas por mês).
-
-Implementar dashboard interativo (Streamlit/Power BI).
-
-Desenvolver modelo de previsão de demanda.
