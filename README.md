@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/5988aea5-557f-4fc3-8ffd-a1e13f683fa4)
 📌 Visão Geral
 O projeto utiliza dados de vendas de quatro lojas diferentes para gerar insights estratégicos. Através de análise exploratória e visualização de dados, identificamos:
 
